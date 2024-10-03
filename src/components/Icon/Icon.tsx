@@ -12,13 +12,14 @@ import { IIcons } from '@/types';
 
 interface Props {
 	as: IIcons;
+	size?: 'small' | 'base';
 	className?: string;
 	onClick?: () => void;
 }
-export default function Icon({ as, className, onClick }: Props) {
+export default function Icon({ as, size = 'base', className, onClick }: Props) {
 	return (
 		<div
-			className={`${styles.icon} ${className ? className : ''}`}
+			className={`${styles.icon} ${styles[size]} ${className ? className : ''}`}
 			onClick={onClick}
 		>
 			{as === 'phone' && <LuPhone />}

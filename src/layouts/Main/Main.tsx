@@ -28,7 +28,13 @@ export default function Main({
 				<main className={styles.main}>
 					<div className={styles.textBox} style={{ order: inverted ? 2 : -1 }}>
 						<Text tag='h2' color='gray' text={subtitle} />
-						<Text tag='h1' size='title' weight={700} text={title} />
+						<Text
+							tag='h1'
+							color='primary'
+							size='title'
+							weight={700}
+							text={title}
+						/>
 					</div>
 					{children}
 				</main>

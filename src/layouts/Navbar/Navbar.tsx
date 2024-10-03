@@ -1,6 +1,6 @@
-import { v4 as uuidv4 } from 'uuid';
 import AppLink from '@/components/AppLink/AppLink';
 import styles from './Navbar.module.css';
+import { cleanString } from '@/utilities';
 
 export default function Navbar() {
 	const routes = [
@@ -13,8 +13,8 @@ export default function Navbar() {
 	return (
 		<nav className={styles.navbar}>
 			<div className={styles.linksContainer}>
-				{routes.map((r) => {
-					const key = uuidv4();
+				{routes.map((r, index) => {
+					const key = cleanString(r.name + index);
 					const path = r.path;
 					const text = r.name;
 

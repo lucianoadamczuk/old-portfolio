@@ -1,5 +1,5 @@
 'use client';
-import { v4 as uuidv4 } from 'uuid';
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -13,11 +13,15 @@ import { Pagination, Navigation } from 'swiper/modules';
 import { SlideAbout } from '@/components';
 
 import './Carousel.css';
+import { useState } from 'react';
+import { cleanString } from '@/utilities';
 
 interface Props {
 	about: { title: string; items: string[] }[];
 }
 export default function Carousel({ about }: Props) {
+	const [visibleIndex, setVisibleIndex] = useState<number>(0);
+
 	return (
 		<>
 			<Swiper
@@ -27,15 +31,23 @@ export default function Carousel({ about }: Props) {
 				spaceBetween={50}
 				navigation={true}
 				modules={[Pagination, Navigation]}
+				onSlideChange={(swiper) => {
+					const activeIndex = swiper.activeIndex;
+					setVisibleIndex(activeIndex);
+				}}
 				className='Carousel'
 			>
-				{about.map((i) => {
-					const key = uuidv4();
+				{about.map((i, index) => {
+					const key = cleanString(i.title + i.items + index);
 					const title = i.title;
 					const items = i.items;
 					return (
 						<SwiperSlide key={key}>
-							<SlideAbout title={title} items={items} />
+							<SlideAbout
+								title={title}
+								items={items}
+								isVisible={index === visibleIndex}
+							/>
 						</SwiperSlide>
 					);
 				})}

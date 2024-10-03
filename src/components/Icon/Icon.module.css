@@ -1,5 +1,23 @@
+.icon {
+	/*Box model stuff*/
+	height: fit-content;
+}
 .icon > svg {
+	/*Box model stuff*/
+	width: 100%;
+	height: 100%;
+	/*Typography stuff*/
+	color: var(--color-gray);
+}
+
+.base {
+	/*Box model stuff*/
 	width: 40px;
 	height: 40px;
-	color: var(--color-gray);
+}
+
+.small {
+	/*Box model stuff*/
+	width: 20px;
+	height: 20px;
 }

@@ -8,7 +8,7 @@
 	/*Box model stuff*/
 	width: 100%;
 	padding: 0 var(--space-container);
-	background: linear-gradient(to top, var(--color-dark) 40%, transparent);
+	background: linear-gradient(to top, var(--color-dark) 10%, transparent);
 }
 
 .linksContainer {

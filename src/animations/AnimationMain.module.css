@@ -12,8 +12,8 @@
 	background-color: black;
 	/*Miscellaneous*/
 	inset: 0;
-	animation: animate 2s forwards;
-	animation-delay: 0.1s;
+	animation: animate 0.8s forwards;
+	animation-delay: 0.3s;
 }
 
 @keyframes animate {
@@ -23,6 +23,7 @@
 	}
 	99% {
 		transform: scale(10);
+		rotate: 90deg;
 		opacity: 0;
 	}
 	100% {
@@ -31,8 +32,8 @@
 }
 
 .text {
-	animation: text 2s forwards;
-	animation-delay: 0.2s;
+	animation: text 0.8s forwards;
+	animation-delay: 0.3s;
 }
 
 @keyframes text {

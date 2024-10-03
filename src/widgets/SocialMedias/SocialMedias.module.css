@@ -1,0 +1,13 @@
+.socialMedias {
+	/*Display stuff*/
+	display: flex;
+	align-items: center;
+	align-items: center;
+	justify-content: center;
+	/*Box model stuff*/
+	padding: var(--space-xs);
+	border-radius: var(--rounded);
+	/*Miscellaneous*/
+	backdrop-filter: blur(var(--blur));
+	gap: var(--space-sm);
+}

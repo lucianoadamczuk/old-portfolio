@@ -1,6 +1,6 @@
-import { LanguageSwitcher, Navbar } from '@/layouts';
-import '../styles/index.css';
+import { Navbar, TopBar } from '@/layouts';
 import type { Metadata } from 'next';
+import '../styles/index.css';
 
 export const metadata: Metadata = {
 	title: 'Create Next App',
@@ -15,7 +15,7 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body>
-				<LanguageSwitcher />
+				<TopBar />
 				{children}
 				<Navbar />
 			</body>

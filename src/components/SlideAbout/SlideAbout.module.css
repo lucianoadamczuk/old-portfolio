@@ -1,5 +1,6 @@
 .slideAbout {
 	width: 100%;
+	overflow: hidden;
 	list-style-position: inside;
 	padding-bottom: var(--space-lg);
 }

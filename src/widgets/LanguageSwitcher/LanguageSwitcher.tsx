@@ -1,6 +1,6 @@
 import styles from './LanguageSwitcher.module.css';
-import { v4 as uuidv4 } from 'uuid';
 import { Text } from '@/components';
+import { cleanString } from '@/utilities';
 import React from 'react';
 
 export default function LanguageSwitcher() {
@@ -8,10 +8,10 @@ export default function LanguageSwitcher() {
 	return (
 		<div className={styles.switcher}>
 			{languages.map((l, index) => {
-				const key = uuidv4();
-
+				const key = cleanString(l + index);
 				const text = l;
 				const isLast = languages.length - 1 === index;
+
 				return (
 					<React.Fragment key={key}>
 						<Text size='small' tag='span' text={text} />

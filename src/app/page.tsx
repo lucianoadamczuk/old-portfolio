@@ -7,7 +7,7 @@ export default function Home() {
 	const alt = 'Luciano Adamczuk';
 	const subtitle = 'Being part of the IT world';
 	const title = 'Luciano Adamczuk';
-	const phrase = 'Frontend developer';
+	const phrase = 'create - inspire - transform - ';
 
 	return (
 		<Main
