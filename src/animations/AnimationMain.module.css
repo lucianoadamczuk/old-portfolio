@@ -1,0 +1,45 @@
+.container {
+	/*Display stuff*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*Positioning stuff*/
+	position: fixed;
+	z-index: 5;
+	/*Box model stuff*/
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	/*Miscellaneous*/
+	inset: 0;
+	animation: animate 2s forwards;
+	animation-delay: 0.1s;
+}
+
+@keyframes animate {
+	0% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	99% {
+		transform: scale(10);
+		opacity: 0;
+	}
+	100% {
+		display: none;
+	}
+}
+
+.text {
+	animation: text 2s forwards;
+	animation-delay: 0.2s;
+}
+
+@keyframes text {
+	0% {
+		letter-spacing: 0px;
+	}
+	100% {
+		letter-spacing: 30px;
+	}
+}

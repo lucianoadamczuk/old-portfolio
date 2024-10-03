@@ -1,0 +1,5 @@
+.scrollBox {
+	width: 100%;
+	height: 40dvh;
+	overflow-y: scroll;
+}

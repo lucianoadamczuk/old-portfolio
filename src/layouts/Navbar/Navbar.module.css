@@ -1,0 +1,29 @@
+.navbar {
+	/*Display stuff*/
+	display: flex;
+	justify-content: center;
+	/*Positioning stuff*/
+	position: fixed;
+	bottom: 0;
+	/*Box model stuff*/
+	width: 100%;
+	padding: 0 var(--space-container);
+	background: linear-gradient(to top, var(--color-dark) 40%, transparent);
+}
+
+.linksContainer {
+	/*Display stuff*/
+	display: flex;
+	justify-content: center;
+	/*Box model stuff*/
+	padding: 0 var(--space-md);
+	border-radius: var(--rounded);
+	background-color: var(--color-light-transparent);
+	/*Miscellaneous*/
+	backdrop-filter: blur(var(--blur));
+	gap: var(--space-md);
+	justify-content: space-evenly;
+	width: 100%;
+	max-width: 700px;
+	margin-bottom: var(--space-md);
+}

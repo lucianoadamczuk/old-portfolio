@@ -1,0 +1,99 @@
+/* --------------------------------- colors -------------------------------- */
+:root {
+	--color-light: #f2f2f2;
+	--color-gray: #a6a6a6;
+	--color-dark: #0d0e13;
+	--color-primary: #d96e11;
+	--color-secondary: #0887a1;
+
+	--color-transparent: #f2f2f200;
+	--color-light-transparent: #f2f2f243;
+}
+
+/* --------------------------------- spaces --------------------------------- */
+:root {
+	--space-xs: 5px;
+	--space-sm: 10px;
+	--space-md: 15px;
+	--space-lg: 40px;
+	--space-container: 5%;
+}
+
+/* --------------------------------- others --------------------------------- */
+:root {
+	--rounded: 3px;
+	--blur: 5px;
+	--letter-spacing: 5px;
+	--normal: 0.6s;
+	--fast: 0.3s;
+}
+
+/* ------------------------------ fontfamilies ------------------------------ */
+@font-face {
+	font-family: 'TitilliumWeb';
+	src: url('/assets/fonts/TitilliumWeb-Bold.ttf'), format('truetype');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'TitilliumWeb';
+	src: url('/assets/fonts/TitilliumWeb-Light.ttf'), format('truetype');
+	font-weight: 300;
+}
+
+:root {
+	--font-family-base: 'titilliumWeb';
+}
+
+/* ------------------------------ font weights ------------------------------ */
+:root {
+	--font-weight-base: 300;
+	--font-weight-title: 700;
+}
+
+/* ---------------------------------- sizes --------------------------------- */
+:root {
+	--font-size-small: 1.2rem;
+	--font-size-base: 1.6rem;
+	--font-size-subtitle: 2rem;
+	--font-size-title: 4rem;
+}
+
+/* ---------------------------------- reset --------------------------------- */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	min-width: 320px;
+	background-color: var(--color-dark);
+	color: var(--color-light);
+	font-family: var(--font-family-base);
+	line-height: 28px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
+}
+
+p,
+li,
+span {
+	text-wrap: pretty;
+}
+
+a {
+	text-decoration: none;
+}

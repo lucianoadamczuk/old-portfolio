@@ -1,0 +1,38 @@
+.pill {
+	/*Box model stuff*/
+	padding: 0 var(--space-md);
+	border-radius: 10px;
+	background-color: var(--color-secondary);
+	/*Miscellaneous*/
+	cursor: pointer;
+}
+
+.details {
+	/*Display stuff*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/*Positioning stuff*/
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	/*Box model stuff*/
+	width: 100%;
+	height: 100%;
+	background-color: var(--color-secondary);
+	/*Manipulations stuff*/
+	transition:
+		all var(--fast) ease-in-out allow-discrete,
+		opacity var(--normal) allow-discrete;
+	/*Miscellaneous*/
+	overflow: hidden;
+}
+
+.icon {
+	/*Positioning stuff*/
+	position: fixed;
+	right: var(--space-md);
+	top: var(--space-md);
+}

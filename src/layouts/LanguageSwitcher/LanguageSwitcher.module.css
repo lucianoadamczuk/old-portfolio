@@ -1,0 +1,15 @@
+.switcher {
+	/*Display stuff*/
+	display: flex;
+	/*Positioning stuff*/
+	position: fixed;
+	left: var(--space-md);
+	top: var(--space-md);
+	z-index: 2;
+	/*Box model stuff*/
+	padding: 0 var(--space-sm);
+	border-radius: var(--rounded);
+	/*Miscellaneous*/
+	gap: var(--space-xs);
+	backdrop-filter: blur(var(--blur));
+}
