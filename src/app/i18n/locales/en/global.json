@@ -1,7 +1,8 @@
 {
 	"metadata": {
 		"title": "Luciano Adamczuk - Frontend Developer",
-		"description": ""
+		"description": "I am a frontend developer committed to creating visually appealing and functional web experiences. At the same time, I ensure optimized interfaces that provide intuitive navigation. Discover my dedication to detail, design, and skills in my portfolio.",
+		"keywords": "frontend developer, web design, web designer, UI/UX, responsive design, React, Next JS, React Native, SOLID, web development, CSS, HTML,  IT"
 	},
 	"routes": [
 		{ "name": "Home", "path": "" },

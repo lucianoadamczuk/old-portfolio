@@ -25,8 +25,9 @@ export async function generateMetadata({ params }: MetadatProps) {
 
 	const title = t.metadata.title;
 	const description = t.metadata.description;
+	const keywords = t.metadata.keywords;
 
-	return { title, description };
+	return { title, description, keywords };
 }
 
 interface Props {
