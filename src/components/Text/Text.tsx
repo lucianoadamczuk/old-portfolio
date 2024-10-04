@@ -9,6 +9,7 @@ interface Props {
 	weight?: 300 | 700;
 	className?: string;
 	styles?: CSSProperties;
+	onClick?: () => void;
 }
 
 export default function Text({
@@ -20,6 +21,7 @@ export default function Text({
 	weight = 300,
 	className,
 	styles,
+	onClick,
 }: Props) {
 	/* --------------------------------- styles --------------------------------- */
 	const style = {
@@ -31,7 +33,7 @@ export default function Text({
 	} as CSSProperties;
 
 	return (
-		<Tag className={className} style={style}>
+		<Tag className={className} style={style} onClick={onClick}>
 			{text}
 		</Tag>
 	);

@@ -1,0 +1,72 @@
+{
+	"technologies": [
+		{
+			"slug": "ux-ui",
+			"text": "Conjunto de prácticas y principios de diseño centrados en la experiencia del usuario, que buscan crear interfaces intuitivas y atractivas."
+		},
+		{
+			"slug": "tailwind",
+			"text": "Un framework CSS utilitario que permite diseñar rápidamente interfaces personalizadas mediante clases predefinidas."
+		},
+		{
+			"slug": "swiper-js",
+			"text": "Una biblioteca de deslizadores para crear interfaces deslizables y responsivas, ideal para mostrar contenido multimedia."
+		},
+		{
+			"slug": "typescript",
+			"text": "Un superconjunto de JavaScript que añade tipado estático, mejorando la calidad y la mantenibilidad del código."
+		},
+		{
+			"slug": "css",
+			"text": "Un lenguaje de estilo que se utiliza para describir la presentación de un documento escrito en HTML o XML."
+		},
+		{
+			"slug": "next-js",
+			"text": "Un framework de React que permite la renderización del lado del servidor y la generación de sitios estáticos para un mejor rendimiento."
+		},
+		{
+			"slug": "next-ui",
+			"text": "Una colección de componentes de interfaz de usuario para aplicaciones construidas con Next.js, facilitando un desarrollo rápido y estilizado."
+		},
+		{
+			"slug": "react",
+			"text": "Una biblioteca de JavaScript para construir interfaces de usuario, basada en componentes reutilizables y un enfoque declarativo."
+		},
+		{
+			"slug": "photoshop",
+			"text": "Un software de edición de imágenes que se utiliza para diseñar y retocar gráficos y elementos visuales para la web."
+		},
+		{
+			"slug": "framer-motion",
+			"text": "Una biblioteca para animaciones en React que permite crear transiciones y animaciones complejas de manera sencilla."
+		},
+		{
+			"slug": "bootstrap",
+			"text": "Un framework front-end que facilita el desarrollo de sitios web responsivos y móviles utilizando HTML, CSS y JavaScript."
+		},
+		{
+			"slug": "react-router-dom",
+			"text": "Una biblioteca de enrutamiento para React que permite la navegación entre diferentes componentes de una aplicación de manera sencilla."
+		},
+		{
+			"slug": "fetch",
+			"text": "Una API moderna que permite realizar solicitudes HTTP en JavaScript, facilitando la comunicación con servidores y APIs."
+		},
+		{
+			"slug": "css-modules",
+			"text": "Una técnica que permite modularizar el CSS, asegurando que los estilos sean aplicados solo a los componentes deseados."
+		},
+		{
+			"slug": "i18n",
+			"text": "Un enfoque de internacionalización que permite que las aplicaciones sean traducibles y adaptables a diferentes idiomas y regiones."
+		},
+		{
+			"slug": "context-api",
+			"text": "Una API de React que permite manejar el estado global de una aplicación sin necesidad de pasar props manualmente."
+		},
+		{
+			"slug": "framer-motion",
+			"text": "Una herramienta de prototipado que permite crear animaciones y transiciones de forma visual y dinámica."
+		}
+	]
+}

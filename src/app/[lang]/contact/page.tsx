@@ -1,15 +1,23 @@
 import { ContactBox } from '@/components';
 import { Main } from '@/layouts';
-import { IIcons } from '@/types';
-import { personalInformation } from '@/configuration';
+import { IIcons, IParams } from '@/types';
+import { personalInformation } from '@/constants';
 import { cleanString } from '@/utilities';
+import { useTranslation } from '@/app/i18n';
 
-export default function page() {
-	const path = 'Contact';
+interface Props {
+	params: IParams;
+}
+export default async function Contact({ params }: Props) {
+	const { t } = await useTranslation(params.lang, 'pages', {
+		keyPrefix: 'contact',
+	});
 	const src = '/assets/images/contact.webp';
-	const alt = 'Luciano Adamzcuk';
-	const subtitle = 'Time to action';
-	const title = 'Contact';
+	const path = t('path', { ns: 'pages' });
+	const alt = t('alt', { ns: 'pages' });
+	const subtitle = t('subtitle', { ns: 'pages' });
+	const title = t('title', { ns: 'pages' });
+
 	const contacts = [
 		{ icon: 'phone', text: personalInformation.phone },
 		{ icon: 'email', text: personalInformation.email },

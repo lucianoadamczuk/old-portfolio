@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
-import Text from '../Text/Text';
 import { usePathname } from 'next/navigation';
+import Text from '../Text/Text';
 
 interface Props {
 	path: string;

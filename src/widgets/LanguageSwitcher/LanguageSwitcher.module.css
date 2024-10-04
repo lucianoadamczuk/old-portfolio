@@ -7,4 +7,5 @@
 	/*Miscellaneous*/
 	gap: var(--space-xs);
 	backdrop-filter: blur(var(--blur));
+	z-index: 2;
 }

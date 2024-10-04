@@ -10,6 +10,11 @@
 	color: var(--color-gray);
 }
 
+.icon:hover {
+	opacity: 0.5;
+	transition: var(--fast);
+}
+
 .base {
 	/*Box model stuff*/
 	width: 40px;

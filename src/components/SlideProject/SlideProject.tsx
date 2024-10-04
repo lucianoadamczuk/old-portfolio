@@ -1,17 +1,20 @@
-import styles from './SlideProject.module.css';
+'use client';
+
+import { useRouter } from 'next/navigation';
 import Text from '../Text/Text';
-import Link from 'next/link';
+import styles from './SlideProject.module.css';
 
 interface Props {
-	slug: string;
+	href: string;
 	title: string;
 	text: string;
 }
-export default function SlideProject({ slug, title, text }: Props) {
+export default function SlideProject({ href, title, text }: Props) {
+	const router = useRouter();
 	return (
-		<Link href={slug} className={styles.slideProject}>
+		<div className={styles.slideProject} onClick={() => router.push(href)}>
 			<Text tag='h4' weight={700} text={title} />
-			<Text tag='p' text={text} />
-		</Link>
+			<Text tag='p' text={text} className={styles.description} />
+		</div>
 	);
 }

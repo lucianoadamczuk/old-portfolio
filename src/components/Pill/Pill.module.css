@@ -17,10 +17,10 @@
 	position: fixed;
 	left: 0;
 	top: 0;
-	z-index: 2;
+	z-index: 9999;
 	/*Box model stuff*/
 	width: 100%;
-	height: 100%;
+	height: 100dvh;
 	background-color: var(--color-secondary);
 	/*Manipulations stuff*/
 	transition:
@@ -28,11 +28,10 @@
 		opacity var(--normal) allow-discrete;
 	/*Miscellaneous*/
 	overflow: hidden;
+	padding: var(--space-lg) var(--space-container);
+	text-align: center;
 }
 
 .icon {
-	/*Positioning stuff*/
-	position: fixed;
-	right: var(--space-md);
-	top: var(--space-md);
+	margin-top: var(--space-lg);
 }

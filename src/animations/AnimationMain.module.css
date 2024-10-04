@@ -23,7 +23,6 @@
 	}
 	99% {
 		transform: scale(10);
-		rotate: 90deg;
 		opacity: 0;
 	}
 	100% {

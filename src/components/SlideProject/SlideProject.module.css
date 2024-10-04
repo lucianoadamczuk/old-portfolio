@@ -9,3 +9,11 @@
 .slideProject:hover {
 	background-color: var(--color-secondary);
 }
+
+.description {
+	line-clamp: 1;
+	-webkit-line-clamp: 1;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}

@@ -1,0 +1,17 @@
+{
+	"metadata": {
+		"title": "Luciano Adamczuk - Desarrollador Frontend",
+		"description": ""
+	},
+	"routes": [
+		{ "name": "Inicio", "path": "" },
+		{ "name": "Acerca de mí", "path": "about-me" },
+		{ "name": "Projectos", "path": "projects" },
+		{ "name": "Contacto", "path": "contact" }
+	],
+	"personalPhrase": "crea - inspira - transforma - ",
+	"notFound": {
+		"title": "Ups, tenemos un error",
+		"text": "Parece ser que la URL es incorrecta. ¿Por qué no intenres con algo diferente?"
+	}
+}

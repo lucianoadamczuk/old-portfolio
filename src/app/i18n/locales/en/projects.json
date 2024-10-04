@@ -1,0 +1,40 @@
+{
+	"projects": [
+		{
+			"slug": "haus-inmobiliary",
+			"description": "A real estate website showcasing properties with modern design and user-friendly interface."
+		},
+		{
+			"slug": "church-i18n",
+			"description": "A multilingual church website that supports internationalization for diverse communities."
+		},
+		{
+			"slug": "gamesphere",
+			"description": "An interactive gaming platform built with Next.js, featuring various game genres and community interactions."
+		},
+		{
+			"slug": "bibiana-garcia",
+			"description": "A personal portfolio website for Bibiana Garcia, highlighting her work in design and development."
+		},
+		{
+			"slug": "genaro-pedrazzoli",
+			"description": "A professional portfolio showcasing Genaro Pedrazzoli's projects and skills in web development."
+		},
+		{
+			"slug": "netflix-replica",
+			"description": "A Netflix replica application demonstrating a similar user experience and functionality."
+		},
+		{
+			"slug": "go-to-egypt",
+			"description": "A travel website dedicated to exploring Egypt's rich culture and attractions."
+		},
+		{
+			"slug": "duolingo-replica",
+			"description": "A language learning platform inspired by Duolingo, featuring interactive lessons and quizzes."
+		},
+		{
+			"slug": "ecommerce-coderhouse",
+			"description": "An e-commerce website built for a coding bootcamp, showcasing various products and a smooth shopping experience."
+		}
+	]
+}

@@ -14,16 +14,33 @@
 .linksContainer {
 	/*Display stuff*/
 	display: flex;
+	align-items: center;
 	justify-content: center;
+	justify-content: space-evenly;
 	/*Box model stuff*/
+	width: 100%;
+	max-width: 700px;
+	margin-bottom: var(--space-sm);
 	padding: 0 var(--space-md);
 	border-radius: var(--rounded);
 	background-color: var(--color-light-transparent);
+	/*Typography stuff*/
+	text-align: center;
 	/*Miscellaneous*/
 	backdrop-filter: blur(var(--blur));
 	gap: var(--space-md);
-	justify-content: space-evenly;
-	width: 100%;
-	max-width: 700px;
-	margin-bottom: var(--space-md);
+}
+
+@media (height > 600px) {
+	.linksContainer {
+		margin-bottom: var(--space-lg);
+	}
+}
+
+@media (width > 700px) {
+	.linksContainer {
+		width: fit-content;
+		gap: var(--space-lg);
+		padding: var(--space-sm) var(--space-lg);
+	}
 }

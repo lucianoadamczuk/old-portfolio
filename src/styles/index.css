@@ -64,7 +64,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	position: relative;
 }
 
 html {
@@ -76,7 +75,6 @@ body {
 	background-color: var(--color-dark);
 	color: var(--color-light);
 	font-family: var(--font-family-base);
-	line-height: 28px;
 }
 
 h1,
@@ -86,6 +84,7 @@ h4,
 h5,
 h6 {
 	text-wrap: balance;
+	line-height: 28px;
 }
 
 p,
@@ -96,4 +95,21 @@ span {
 
 a {
 	text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	border-radius: var(--rounded);
+	background-color: var(--color-gray);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--color-secondary);
+	border-radius: var(--rounded);
 }

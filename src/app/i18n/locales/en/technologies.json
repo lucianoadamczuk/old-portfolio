@@ -1,0 +1,72 @@
+{
+	"technologies": [
+		{
+			"slug": "ux-ui",
+			"text": "A set of practices and design principles focused on user experience, aimed at creating intuitive and engaging interfaces."
+		},
+		{
+			"slug": "tailwind",
+			"text": "A utility-first CSS framework that allows for rapid design of customized interfaces using predefined classes."
+		},
+		{
+			"slug": "swiper-js",
+			"text": "A slider library for creating responsive, swipeable interfaces, ideal for displaying multimedia content."
+		},
+		{
+			"slug": "typescript",
+			"text": "A superset of JavaScript that adds static typing, improving code quality and maintainability."
+		},
+		{
+			"slug": "css",
+			"text": "A styling language used to describe the presentation of a document written in HTML or XML."
+		},
+		{
+			"slug": "next-js",
+			"text": "A React framework that allows server-side rendering and static site generation for better performance."
+		},
+		{
+			"slug": "next-ui",
+			"text": "A collection of user interface components for applications built with Next.js, facilitating rapid and styled development."
+		},
+		{
+			"slug": "react",
+			"text": "A JavaScript library for building user interfaces, based on reusable components and a declarative approach."
+		},
+		{
+			"slug": "photoshop",
+			"text": "An image editing software used to design and retouch graphics and visual elements for the web."
+		},
+		{
+			"slug": "framer-motion",
+			"text": "A library for animations in React that allows for easy creation of complex transitions and animations."
+		},
+		{
+			"slug": "bootstrap",
+			"text": "A front-end framework that facilitates the development of responsive and mobile websites using HTML, CSS, and JavaScript."
+		},
+		{
+			"slug": "react-router-dom",
+			"text": "A routing library for React that allows for navigation between different components of an application easily."
+		},
+		{
+			"slug": "fetch",
+			"text": "A modern API that enables making HTTP requests in JavaScript, facilitating communication with servers and APIs."
+		},
+		{
+			"slug": "css-modules",
+			"text": "A technique that allows for modularizing CSS, ensuring styles are applied only to the desired components."
+		},
+		{
+			"slug": "i18n",
+			"text": "An internationalization approach that allows applications to be translatable and adaptable to different languages and regions."
+		},
+		{
+			"slug": "context-api",
+			"text": "A React API that allows managing the global state of an application without the need to manually pass props."
+		},
+		{
+			"slug": "framer-motion",
+			"text": "A prototyping tool that allows for creating animations and transitions visually and dynamically."
+		}
+	]
+}

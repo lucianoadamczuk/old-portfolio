@@ -10,6 +10,7 @@ interface Props {
 	alt: string;
 	subtitle: string;
 	title: string;
+	reflectedText?: string;
 	inverted?: boolean;
 	children: ReactNode;
 }
@@ -19,6 +20,7 @@ export default function Main({
 	alt,
 	subtitle,
 	title,
+	reflectedText,
 	inverted,
 	children,
 }: Props) {
@@ -35,6 +37,20 @@ export default function Main({
 							weight={700}
 							text={title}
 						/>
+
+						{/* ---------------------------- reflected phrase ---------------------------- */}
+						{reflectedText && (
+							<div className={styles.reflectedContainer}>
+								<Text tag='h2' color='gray' spaced text={reflectedText} />
+								<Text
+									tag='h2'
+									color='gray'
+									spaced
+									className={styles.reflectedText}
+									text={reflectedText}
+								/>
+							</div>
+						)}
 					</div>
 					{children}
 				</main>

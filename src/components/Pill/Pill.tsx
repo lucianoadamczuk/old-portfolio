@@ -4,7 +4,11 @@ import Text from '../Text/Text';
 import styles from './Pill.module.css';
 import Icon from '../Icon/Icon';
 
-export default function Pill() {
+interface Props {
+	slug: string;
+	description: string;
+}
+export default function Pill({ slug, description }: Props) {
 	const [isOpen, setIsOpen] = useState<boolean>(false);
 
 	return (
@@ -15,7 +19,7 @@ export default function Pill() {
 				onClick={() => setIsOpen(true)}
 			>
 				{/* pill text */}
-				<Text tag='span' size='small' text='Pill' />
+				<Text tag='span' size='small' text={slug} />
 			</div>
 
 			{/* ------------------------------ expanded pill ----------------------------- */}
@@ -27,24 +31,15 @@ export default function Pill() {
 					opacity: isOpen ? 1 : 0,
 				}}
 			>
+				{/* title */}
+				<Text tag='h6' weight={700} size='title' color='gray' text={slug} />
+				{/* description */}
+				<Text tag='span' size='small' text={description} />
+
 				<Icon
 					as='xCircle'
 					className={styles.icon}
 					onClick={() => setIsOpen(false)}
-				/>
-				{/* title */}
-				<Text
-					tag='h6'
-					weight={700}
-					size='title'
-					color='gray'
-					text='Title pill'
-				/>
-				{/* description */}
-				<Text
-					tag='span'
-					size='small'
-					text='Pill lorem looo reeem dale messii'
 				/>
 			</div>
 		</>

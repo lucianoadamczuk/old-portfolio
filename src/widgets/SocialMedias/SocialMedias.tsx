@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from './SocialMedias.module.css';
 import { Icon } from '@/components';
-import { personalInformation } from '@/configuration';
+import { personalInformation } from '@/constants';
 
 export default function SocialMedias() {
 	return (

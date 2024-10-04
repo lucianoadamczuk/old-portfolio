@@ -1,3 +1,4 @@
+export { default as AppLink } from './AppLink/AppLink';
 export { default as ContactBox } from './ContactBox/ContactBox';
 export { default as Icon } from './Icon/Icon';
 export { default as Pill } from './Pill/Pill';

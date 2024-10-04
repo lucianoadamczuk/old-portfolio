@@ -1,0 +1,57 @@
+{
+	"home": {
+		"path": "Inicio",
+		"alt": "Foto de Luciano Adamczuk",
+		"subtitle": "Siendo parte del mundo IT",
+		"title": "Luciano Adamczuk",
+		"phrase": "Desarrollador Frontend"
+	},
+	"about-me": {
+		"path": "Acerca de mí",
+		"alt": "Foto de Luciano Adamczuk",
+		"subtitle": "Déjame presentarme",
+		"title": "Acerca de Mí",
+		"carousel": [
+			{
+				"title": "Introducción",
+				"items": [
+					"Desarrollador frontend enfocado en crear experiencias web memorables.",
+					"Transformando ideas en interfaces que cautivan y funcionan bien.",
+					"Me destaco por ser interactivo, creativo y seguro."
+				]
+			},
+			{
+				"title": "Filosofía",
+				"items": [
+					"Creo que el diseño y la experiencia del usuario son clave en el desarrollo web.",
+					"Mis principios fundamentales son simplicidad, usabilidad y estética refinada.",
+					"Siempre apuntando a sorprender e involucrar a los usuarios."
+				]
+			},
+			{
+				"title": "Más allá del código",
+				"items": [
+					"Soy una persona versátil que disfruta aprender en diversas áreas.",
+					"Me involucro en actividades como leer, bailar y practicar deportes.",
+					"Mi mentalidad analítica y curiosidad impulsan mi crecimiento personal y profesional."
+				]
+			}
+		]
+	},
+	"projects": {
+		"path": "Proyectos",
+		"alt": "Foto de Luciano Adamczuk",
+		"subtitle": "Hacer es aprender",
+		"title": "Proyectos"
+	},
+	"projects-slug": {
+		"alt": "Imagen representativa",
+		"subtitle": "- proyectos -"
+	},
+	"contact": {
+		"path": "Contacto",
+		"alt": "Foto de Luciano Adamczuk",
+		"subtitle": "Hora de actuar",
+		"title": "Contacto"
+	}
+}

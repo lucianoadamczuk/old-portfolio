@@ -1,0 +1,57 @@
+{
+	"home": {
+		"path": "Home",
+		"alt": "Photo of Luciano Adamczuk",
+		"subtitle": "Being part of the IT world",
+		"title": "Luciano Adamczuk",
+		"phrase": "Frontend Developer"
+	},
+	"about-me": {
+		"path": "About Me",
+		"alt": "Photo of Luciano Adamczuk",
+		"subtitle": "Let me introduce myself",
+		"title": "About Me",
+		"carousel": [
+			{
+				"title": "Introduction",
+				"items": [
+					"Front-end developer focused on creating memorable web experiences.",
+					"Transforming ideas into interfaces that captivate and work well.",
+					"I stand out for being interactive, creative, and confident."
+				]
+			},
+			{
+				"title": "Philosophy",
+				"items": [
+					"I believe design and user experience are key in web development.",
+					"My core principles are simplicity, usability, and refined aesthetics.",
+					"Always aiming to surprise and engage users."
+				]
+			},
+			{
+				"title": "Beyond the Code",
+				"items": [
+					"I am a versatile individual who enjoys learning in various areas.",
+					"I engage in activities like reading, dancing, and sports.",
+					"My analytical mindset and curiosity drive my personal and professional growth."
+				]
+			}
+		]
+	},
+	"projects": {
+		"path": "Projects",
+		"alt": "Photo of Luciano Adamczuk",
+		"subtitle": "Doing is learning",
+		"title": "Projects"
+	},
+	"projects-slug": {
+		"alt": "Representative image",
+		"subtitle": "- projects -"
+	},
+	"contact": {
+		"path": "Contact",
+		"alt": "Photo of Luciano Adamczuk",
+		"subtitle": "Time to action",
+		"title": "Contact"
+	}
+}

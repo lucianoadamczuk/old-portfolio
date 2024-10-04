@@ -1,0 +1,17 @@
+{
+	"metadata": {
+		"title": "Luciano Adamczuk - Frontend Developer",
+		"description": ""
+	},
+	"routes": [
+		{ "name": "Home", "path": "" },
+		{ "name": "About Me", "path": "about-me" },
+		{ "name": "Projects", "path": "projects" },
+		{ "name": "Contact", "path": "contact" }
+	],
+	"personalPhrase": "create - inspire - transform - ",
+	"notFound": {
+		"title": "Ups, we have an error",
+		"text": "It seems to be that the URL is wrong. Why do you not try with something different?"
+	}
+}
