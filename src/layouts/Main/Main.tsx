@@ -56,7 +56,7 @@ export default function Main({
 				</main>
 
 				<div className={styles.imageContainer}>
-					<Image src={src} alt={alt} fill className={styles.image} />
+					<Image src={src} alt={alt} fill priority className={styles.image} />
 				</div>
 			</div>
 			<AnimationMain path={path} />
