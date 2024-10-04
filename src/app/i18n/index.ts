@@ -14,8 +14,8 @@ const initI18next = async (lng: string, ns: string | string[]) => {
 				(language: string, namespace: string) =>
 					import(`./locales/${language}/${namespace}.json`)
 			)
-		);
-	getOptions(lng, Array.isArray(ns) ? ns[0] : ns);
+		)
+		.init(getOptions(lng, ns));
 	return i18nInstance;
 };
 
